@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D99BCC7126CCC12300736BD1 /* StickyButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC7026CCC12300736BD1 /* StickyButtonsApp.swift */; };
+		D99BCC7326CCC12300736BD1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC7226CCC12300736BD1 /* LoginView.swift */; };
+		D99BCC7526CCC12400736BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99BCC7426CCC12400736BD1 /* Assets.xcassets */; };
+		D99BCC7826CCC12400736BD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99BCC7726CCC12400736BD1 /* Preview Assets.xcassets */; };
+		D99BCC8526CCEA3400736BD1 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC8426CCEA3400736BD1 /* Mouse.swift */; };
+		D99BCC8926CCEBE900736BD1 /* StickyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC8826CCEBE900736BD1 /* StickyButtonView.swift */; };
+		D99BCC8D26CCEE3E00736BD1 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC8C26CCEE3E00736BD1 /* Do.swift */; };
+		D99BCC9326CCF90800736BD1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BCC9226CCF90800736BD1 /* ImageView.swift */; };
+		D9A1564B26CE5F5000E72853 /* Sfx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1564A26CE5F5000E72853 /* Sfx.swift */; };
+		D9CA2C5826CF7124000AF4B1 /* Blow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D9CA2C5726CF7124000AF4B1 /* Blow.m4a */; };
+		D9CA2C5A26CF7131000AF4B1 /* Tink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D9CA2C5926CF7131000AF4B1 /* Tink.m4a */; };
+		D9CA2C5D26CF71AA000AF4B1 /* Pop.aiff in Resources */ = {isa = PBXBuildFile; fileRef = D9CA2C5C26CF719D000AF4B1 /* Pop.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D99BCC6D26CCC12300736BD1 /* StickyButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99BCC7026CCC12300736BD1 /* StickyButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonsApp.swift; sourceTree = "<group>"; };
+		D99BCC7226CCC12300736BD1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D99BCC7426CCC12400736BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D99BCC7726CCC12400736BD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D99BCC7926CCC12400736BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99BCC7A26CCC12400736BD1 /* StickyButtons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StickyButtons.entitlements; sourceTree = "<group>"; };
+		D99BCC8426CCEA3400736BD1 /* Mouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		D99BCC8826CCEBE900736BD1 /* StickyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonView.swift; sourceTree = "<group>"; };
+		D99BCC8C26CCEE3E00736BD1 /* Do.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
+		D99BCC9226CCF90800736BD1 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		D9A1564A26CE5F5000E72853 /* Sfx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sfx.swift; sourceTree = "<group>"; };
+		D9CA2C5726CF7124000AF4B1 /* Blow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blow.m4a; sourceTree = "<group>"; };
+		D9CA2C5926CF7131000AF4B1 /* Tink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tink.m4a; sourceTree = "<group>"; };
+		D9CA2C5C26CF719D000AF4B1 /* Pop.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Pop.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99BCC6A26CCC12300736BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D99BCC6426CCC12300736BD1 = {
+			isa = PBXGroup;
+			children = (
+				D99BCC6F26CCC12300736BD1 /* StickyButtons */,
+				D99BCC6E26CCC12300736BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D99BCC6E26CCC12300736BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99BCC6D26CCC12300736BD1 /* StickyButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D99BCC6F26CCC12300736BD1 /* StickyButtons */ = {
+			isa = PBXGroup;
+			children = (
+				D99BCC8426CCEA3400736BD1 /* Mouse.swift */,
+				D99BCC8C26CCEE3E00736BD1 /* Do.swift */,
+				D9A1564A26CE5F5000E72853 /* Sfx.swift */,
+				D99BCC9226CCF90800736BD1 /* ImageView.swift */,
+				D99BCC8826CCEBE900736BD1 /* StickyButtonView.swift */,
+				D99BCC7226CCC12300736BD1 /* LoginView.swift */,
+				D99BCC7026CCC12300736BD1 /* StickyButtonsApp.swift */,
+				D99BCC7426CCC12400736BD1 /* Assets.xcassets */,
+				D9CA2C5C26CF719D000AF4B1 /* Pop.aiff */,
+				D9CA2C5726CF7124000AF4B1 /* Blow.m4a */,
+				D9CA2C5926CF7131000AF4B1 /* Tink.m4a */,
+				D99BCC7926CCC12400736BD1 /* Info.plist */,
+				D99BCC7A26CCC12400736BD1 /* StickyButtons.entitlements */,
+				D99BCC7626CCC12400736BD1 /* Preview Content */,
+			);
+			path = StickyButtons;
+			sourceTree = "<group>";
+		};
+		D99BCC7626CCC12400736BD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D99BCC7726CCC12400736BD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99BCC6C26CCC12300736BD1 /* StickyButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99BCC7D26CCC12400736BD1 /* Build configuration list for PBXNativeTarget "StickyButtons" */;
+			buildPhases = (
+				D99BCC6926CCC12300736BD1 /* Sources */,
+				D99BCC6A26CCC12300736BD1 /* Frameworks */,
+				D99BCC6B26CCC12300736BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickyButtons;
+			productName = StickyButtons;
+			productReference = D99BCC6D26CCC12300736BD1 /* StickyButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99BCC6526CCC12300736BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D99BCC6C26CCC12300736BD1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = D99BCC6826CCC12300736BD1 /* Build configuration list for PBXProject "StickyButtons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D99BCC6426CCC12300736BD1;
+			productRefGroup = D99BCC6E26CCC12300736BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99BCC6C26CCC12300736BD1 /* StickyButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99BCC6B26CCC12300736BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA2C5826CF7124000AF4B1 /* Blow.m4a in Resources */,
+				D99BCC7826CCC12400736BD1 /* Preview Assets.xcassets in Resources */,
+				D99BCC7526CCC12400736BD1 /* Assets.xcassets in Resources */,
+				D9CA2C5D26CF71AA000AF4B1 /* Pop.aiff in Resources */,
+				D9CA2C5A26CF7131000AF4B1 /* Tink.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99BCC6926CCC12300736BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99BCC9326CCF90800736BD1 /* ImageView.swift in Sources */,
+				D99BCC8926CCEBE900736BD1 /* StickyButtonView.swift in Sources */,
+				D99BCC7326CCC12300736BD1 /* LoginView.swift in Sources */,
+				D99BCC8D26CCEE3E00736BD1 /* Do.swift in Sources */,
+				D99BCC8526CCEA3400736BD1 /* Mouse.swift in Sources */,
+				D9A1564B26CE5F5000E72853 /* Sfx.swift in Sources */,
+				D99BCC7126CCC12300736BD1 /* StickyButtonsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D99BCC7B26CCC12400736BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D99BCC7C26CCC12400736BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D99BCC7E26CCC12400736BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StickyButtons/StickyButtons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyButtons/Preview Content\"";
+				DEVELOPMENT_TEAM = JZYNP97HB4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StickyButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StickyButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D99BCC7F26CCC12400736BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StickyButtons/StickyButtons.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyButtons/Preview Content\"";
+				DEVELOPMENT_TEAM = JZYNP97HB4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StickyButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StickyButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99BCC6826CCC12300736BD1 /* Build configuration list for PBXProject "StickyButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99BCC7B26CCC12400736BD1 /* Debug */,
+				D99BCC7C26CCC12400736BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99BCC7D26CCC12400736BD1 /* Build configuration list for PBXNativeTarget "StickyButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99BCC7E26CCC12400736BD1 /* Debug */,
+				D99BCC7F26CCC12400736BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D99BCC6526CCC12300736BD1 /* Project object */;
+}
