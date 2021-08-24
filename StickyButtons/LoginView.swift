@@ -21,7 +21,7 @@ struct LoginView: View {
 					ForEach(items, id: \.self) {item in
 						StickyButtonView(image: item, size: size, activeItem: $activeItem)
 					}
-				}.padding(.bottom, 60)
+				}//.padding(.bottom, 60)
 			}
 		}.frame(minWidth: 700, minHeight: 400)
 		.ignoresSafeArea(.all)
