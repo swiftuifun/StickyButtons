@@ -1,4 +1,4 @@
 # StickyButtons
 Am interactive menu with sticky buttons and sound effects.
 
-<a href="https://gifyu.com/image/G5u9"><img src="https://s9.gifyu.com/images/240156413_2970537959826583_4602788706664019600_n.md.gif" alt="240156413_2970537959826583_4602788706664019600_n.gif" border="0" /></a>
+<iframe src="https://giphy.com/embed/lqT9V6kAxCiXQ6Q1py" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/menu-swiftuifun-lqT9V6kAxCiXQ6Q1py">via GIPHY</a></p>
